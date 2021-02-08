@@ -3,8 +3,8 @@
 
   #board {
     position: absolute;
-    top: 250px;
-    left: 250px;
+    top: 300px;
+    left: 30%;
     transform: scale(1.5);
   }
   .square {
@@ -23,15 +23,27 @@
   }
 
 .button1{
-    position: absolute;
-    left: 580px;
-    top: 150px;
+    position: relative;
+    text-align: center;
+    left: 47%;
+    top: 200px;
     background-color: rgba(22, 192, 65, 0.527);
     transform: scale(3);
    
 
     
     }
+
+  #roll1 {
+
+    font-size: 50px;
+    position: static;
+    text-align: center;
+    color: red;
+    
+    
+
+  }
 
 
     
