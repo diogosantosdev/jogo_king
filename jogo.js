@@ -276,7 +276,7 @@ let width = 10;
 let height = 4;
 
 //criação dos jogadores
-players = [{name: "Jogador 1",position: 0,color: "blue"},{name: "Jogador 2",position: 0,color: "green"}];
+players = [{name: "Jogador 1",position: 0,color: "red"},{name: "Jogador 2",position: 0,color: "orange"}];
 
 let currentPlayerTurn = 0;
 

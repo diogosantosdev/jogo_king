@@ -1,4 +1,11 @@
 
+body{
+  margin: 0;
+  padding: 0;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+}
+
 
 
   #board {
@@ -6,13 +13,15 @@
     top: 300px;
     left: 30%;
     transform: scale(1.5);
+
   }
   .square {
     position: absolute;
     width: 50px;
     height: 50px;
-    background-color: rgb(129, 255, 150);
-    border: 2px solid;
+    background-color: rgb(235, 188, 34);
+    border:1px solid rgb(2, 2, 2);
+    
   }
   .player {
     position: relative;
@@ -23,23 +32,43 @@
   }
 
 .button1{
+
+    color: rgb(255, 179, 0);
     position: relative;
     text-align: center;
     left: 47%;
     top: 200px;
-    background-color: rgba(22, 192, 65, 0.527);
+    background-color: rgb(5, 5, 5);
     transform: scale(3);
+    border:2px solid rgb(255, 187, 0);
    
 
     
     }
 
+    .title {
+      font-size: 120px;
+      position: relative;
+      text-align: left;
+      color: rgb(255, 196, 0);
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: rgba(219, 179, 0, 0.712);
+      bottom: 130px;
+      left: 30px;
+
+    }
+
   #roll1 {
 
-    font-size: 50px;
-    position: static;
+    font-size: 60px;
+    position: relative;
     text-align: center;
-    color: red;
+    color: rgb(190, 154, 35);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(224, 130, 22);
+    bottom: 360px;
+  
+    
     
     
 
@@ -103,9 +132,9 @@
 
 .button2 {
 
-  background: white;
+  background: rgb(0, 0, 0);
   padding: 10px 15px;
-  color: rgb(18, 90, 18);
+  color: rgb(240, 176, 0);
   font-weight: bolder;
   text-transform: uppercase;
   font-size: 18px;
@@ -122,8 +151,8 @@
 
 .button2:hover {
 
-background: green;
-color: white;
+background: rgb(240, 201, 28);
+color: rgb(0, 0, 0);
 
 }
 
