@@ -45,5 +45,87 @@
 
   }
 
+  .popup {
+
+    background: rgb(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+
+  .pergunta {
+
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom:30px;
+
+  }
+
+  .popup-content {
+
+    height: 250px;
+    width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  input{
+
+    position: relative;
+    top: -35px;
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid gray;
+    bottom: 80px;
+
+}
+
+.roll2 {
+
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  bottom: 20px;
+
+}
+
+.button2 {
+
+  background: white;
+  padding: 10px 15px;
+  color: rgb(18, 90, 18);
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 29px -4px rgba(23, 24, 23, 0.527);
+  margin-top: 25px;
+  text-decoration: none;
+  transition: 0.4s;
+  left: 180px;
+  position: relative;
+  bottom: 150px;
+  border: solid black 2px;
+}
+
+.button2:hover {
+
+background: green;
+color: white;
+
+}
+
 
     
