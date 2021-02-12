@@ -58,7 +58,7 @@ body{
 
     }
 
-  #roll1 {
+  #roll {
 
     font-size: 60px;
     position: relative;
@@ -121,7 +121,7 @@ body{
 
 }
 
-.roll2 {
+.rollPanel {
 
   text-align: center;
   font-size: 30px;
@@ -130,7 +130,7 @@ body{
 
 }
 
-.button2 {
+.answerButton {
 
   background: rgb(0, 0, 0);
   padding: 10px 15px;
@@ -149,7 +149,7 @@ body{
   border: solid black 2px;
 }
 
-.button2:hover {
+.answerButton:hover {
 
 background: rgb(240, 201, 28);
 color: rgb(0, 0, 0);
